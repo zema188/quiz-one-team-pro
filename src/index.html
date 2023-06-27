@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta content="Ответь на 4 вопроса и подбери идеальную квартиру" property="og:title">
+	<meta content="http://res.cloudinary.com/hgwipn3sa/image/upload/v1687695874/fescwpp9ob9xorqiqoan.jpg" property="og:image">
+	<link rel="stylesheet" type="text/css" href="files/fonts/stylesheet.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/css/intlTelInput.css">
+	<link rel="stylesheet" type="text/css" href="css/style.min.css">
+
+	<title>Ответь на 4 вопроса и подбери идеальную квартиру</title>
+</head>
+<body>	
+	<div class="preview active">
+		<div class="preview__pic">
+			<img src="./img/pic/preview-bg.jpg">
+		</div>
+		<div class="preview__content">
+			<div class="preview__content-top">
+				<div class="logo">
+					<img src="./img/pic/logo.webp">
+					<span>
+						Инвестиции & Недвижимость
+					</span>
+				</div>
+			</div>
+			<div class="preview__content-body">
+				<div class="preview__content-title">
+					Ответь на 4 вопроса и подбери идеальную квартиру
+				</div>
+				<button class="preview__btn-start btn btn_purple is-blicked">
+					Пройти тест
+				</button>
+			</div>
+		</div>
+	</div>
+	<form class="quiz" method="post" id="mainForm"
+	action="https://script.google.com/macros/s/AKfycby0E5xz7F19J8-S-gxWHus0-ljMEaWfNWBffyrVR5F_Dl7SJtOW_kABnuRd-Rq1FJhc/exec">
+		<div class="quiz__header">
+			<span class="quiz__header-title container">
+				Подбор недвижимости
+			</span>
+		</div>
+		<div class="quiz__list-blocks">
+			<div class="quiz__content">
+				<div class="quiz__block container">
+					<div class="quiz__title">
+						Какой тип недвижимости вы рассматриваете к покупке?
+					</div>
+					<div class="quiz__tag-list">
+						<div class="quiz__tag quiz__tag_skip">
+							можно пропустить
+						</div>
+					</div>
+					<div class="quiz__list">
+						<div class="quiz__list-item">
+							<label class="custom-w ">
+								<input class="nextStep" type="radio" name="type" value="Студия">
+								<i class="custom-checkbox custom-checkbox_radio "></i>
+								<span>Студия</span>
+							</label>
+						</div>
+						<div class="quiz__list-item">
+							<label class="custom-w ">
+								<input class="nextStep" type="radio" name="type" value="Однокомнатная">
+								<i class="custom-checkbox custom-checkbox_radio "></i>
+								<span>Однокомнатная</span>
+							</label>
+						</div>
+						<div class="quiz__list-item">
+							<label class="custom-w ">
+								<input class="nextStep" type="radio" name="type" value="Двухкомнатная">
+								<i class="custom-checkbox custom-checkbox_radio "></i>
+								<span>Двухкомнатная</span>
+							</label>
+						</div>
+						<div class="quiz__list-item">
+							<label class="custom-w ">
+								<input class="nextStep" type="radio" name="type" value="Трехкомнатная и более">
+								<i class="custom-checkbox custom-checkbox_radio "></i>
+								<span>Трехкомнатная и более</span>
+							</label>
+						</div>
+						<div class="quiz__list-item">
+							<label class="custom-w ">
+								<input class="nextStep" type="radio" name="type" value="Таунхаус">
+								<i class="custom-checkbox custom-checkbox_radio "></i>
+								<span>Таунхаус</span>
+							</label>
+						</div>
+						<div class="quiz__list-item">
+							<label class="custom-w">
+								<input class="nextStep" type="radio" name="type" value="Вилла">
+								<i class="custom-checkbox custom-checkbox_radio "></i>
+								<span>Вилла</span>
+							</label>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="quiz__content ">
+				<div class="quiz__block container">
+					<div class="quiz__title">
+						Когда вы планируете приобрести недвижимость?
+					</div>
+					<div class="quiz__tag-list">
+						<div class="quiz__tag quiz__tag_skip">
+							можно пропустить
+						</div>
+					</div>
+					<div class="quiz__list">
+						<div class="quiz__list-item">
+							<label class="custom-w ">
+								<input class="nextStep" type="radio" name="date-to-buy" value="В ближайшие пару месяцев">
+								<i class="custom-checkbox custom-checkbox_radio "></i>
+								<span>В ближайшие пару месяцев</span>
+							</label>
+						</div>
+						<div class="quiz__list-item">
+							<label  class="custom-w ">
+								<input class="nextStep" type="radio" name="date-to-buy" value="В течение года">
+								<i class="custom-checkbox custom-checkbox_radio "></i>
+								<span>В течение года</span>
+							</label>
+						</div>
+						<div class="quiz__list-item">
+							<label  class="custom-w ">
+								<input class="nextStep" type="radio" name="date-to-buy" value="Пока не решил(а)">
+								<i class="custom-checkbox custom-checkbox_radio "></i>
+								<span>Пока не решил(а)</span>
+							</label>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="quiz__content ">
+				<div class="quiz__block container">
+					<div class="quiz__title">
+						Ответим на любые вопросы. Выберите, что вас интересует:
+					</div>
+					<div class="quiz__tag-list">
+						<div class="quiz__tag quiz__tag_select">
+							<svg viewBox="0 0 24 24" class="mdi-icon mdi-16px"><title>mdi-check-circle</title><path d="M12,2C17.52,2 22,6.48 22,12C22,17.52 17.52,22 12,22C6.48,22 2,17.52 2,12C2,6.48 6.48,2 12,2M11,16.5L18,9.5L16.59,8.09L11,13.67L7.91,10.59L6.5,12L11,16.5Z" stroke-width="0" fill-rule="nonzero"></path></svg>
+							выберите один или несколько
+						</div>
+						<div class="quiz__tag quiz__tag_skip">
+							можно пропустить
+						</div>
+					</div>
+					<div class="quiz__list">
+						<input type="hidden" name="questions">
+						<div class="quiz__list-item">
+							<label class="custom-w ">
+								<input type="checkbox" name="questions[]" value="Удаленная покупка недвижимости">
+								<i class="custom-checkbox"></i>
+								<span>Удаленная покупка недвижимости</span>
+							</label>
+						</div>
+						<div class="quiz__list-item">
+							<label class="custom-w ">
+								<input type="checkbox" name="questions[]" value="Подбор рассрочки">
+								<i class="custom-checkbox  "></i>
+								<span>Подбор рассрочки</span>
+							</label>
+						</div>
+						<div class="quiz__list-item">
+							<label class="custom-w ">
+								<input type="checkbox" name="questions[]" value="Юридическое сопровождение">
+								<i class="custom-checkbox "></i>
+								<span>Юридическое сопровождение</span>
+							</label>
+						</div>
+						<div class="quiz__list-item">
+							<label class="custom-w ">
+								<input type="checkbox" name="questions[]" value="Управление недвижимостью">
+								<i class="custom-checkbox  "></i>
+								<span>Управление недвижимостью</span>
+							</label>
+						</div>
+						<div class="quiz__list-item">
+							<label class="custom-w ">
+								<input type="checkbox" name="questions[]" value="Помощь в выборе района">
+								<i class="custom-checkbox  "></i>
+								<span>Помощь в выборе района</span>
+							</label>
+						</div>
+						<div class="quiz__list-item quiz__list-item_input">
+							<!-- <label class="custom-w ">
+								<input type="checkbox" name="questions[]" value="Свой вопрос:">
+								<i class="custom-checkbox "></i>
+								<span></span>
+							</label> -->
+							<div class="field">
+								<input placeholder="Другое..." name="myQuestion" value="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="quiz__content ">
+				<div class="quiz__block container">
+					<div class="quiz__title">
+						Укажите ваш бюджет
+					</div>
+					<div class="quiz__tag-list">
+						<div class="quiz__tag quiz__tag_skip">
+							можно пропустить
+						</div>
+					</div>
+					<div class="quiz__list">
+						<div class="quiz__list-item">
+							<label class="custom-w ">
+								<input class="nextStep" type="radio" name="budget" value="До $100 000">
+								<i class="custom-checkbox custom-checkbox_radio "></i>
+								<span>До $100 000</span>
+							</label>
+						</div>
+						<div class="quiz__list-item">
+							<label class="custom-w ">
+								<input class="nextStep" type="radio" name="budget" value="$100 000 - $200 000">
+								<i class="custom-checkbox custom-checkbox_radio "></i>
+								<span>$100 000 - $200 000  </span>
+							</label>
+						</div>
+						<div class="quiz__list-item">
+							<label class="custom-w ">
+								<input class="nextStep" type="radio" name="budget" value="$200 000 - $500 000">
+								<i class="custom-checkbox custom-checkbox_radio "></i>
+								<span>$200 000 - $500 000  </span>
+							</label>
+						</div>
+						<div class="quiz__list-item">
+							<label class="custom-w ">
+								<input class="nextStep" type="radio" name="budget" value="Более $500 000">
+								<i class="custom-checkbox custom-checkbox_radio "></i>
+								<span>Более $500 000  </span>
+							</label>
+						</div>
+						<div class="quiz__list-item">
+							<label class="custom-w ">
+								<input class="nextStep" type="radio" name="budget" value="Не определились">
+								<i class="custom-checkbox custom-checkbox_radio "></i>
+								<span>Не определились</span>
+							</label>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="quiz__footer ">
+			<div class="quiz__footer-content container">
+				<div class="range">
+					<div class="range__text">
+						Готово:
+						<span>
+							0%
+						</span>
+					</div>
+					<div class="range__line">
+						<span>
+
+						</span>
+					</div>
+				</div>
+				<button disabled class="btn-back">
+					<svg viewBox="0 0 24 24" class="mdi-icon mdi-24px"><title>mdi-arrow-left</title><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" stroke-width="0" fill-rule="nonzero"></path></svg>
+				</button>
+				<button class="btn-next btn btn_purple is-blicked"> 
+					<div class="content default">
+						Далее
+						<svg viewBox="0 0 24 24" class="mdi-icon mdi-24px"><title>mdi-arrow-right</title><path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z" stroke-width="0" fill-rule="nonzero"></path></svg>
+					</div>
+					<div class="content last-step">
+						<svg viewBox="0 0 24 24" class="mdi-icon mdi-24px"><title>mdi-checkbox-marked-circle-outline</title><path d="M20,12C20,16.42 16.42,20 12,20C7.58,20 4,16.42 4,12C4,7.58 7.58,4 12,4C12.76,4 13.5,4.11 14.2,4.31L15.77,2.74C14.61,2.26 13.34,2 12,2C6.48,2 2,6.48 2,12C2,17.52 6.48,22 12,22C17.52,22 22,17.52 22,12M7.91,10.08L6.5,11.5L11,16L21,6L19.59,4.58L11,13.17L7.91,10.08Z" stroke-width="0" fill-rule="nonzero"></path></svg>
+						Последний шаг
+					</div>
+				</button>
+			</div>
+		</div>
+		<div class="final">
+			<div class="final__content">
+				<div class="final__title">
+					Заполните форму, чтобы получить результаты теста
+				</div>
+				<div class="final__list">
+					<div class="final__item">
+						<div class="final__subtitle">
+							ВВЕДИТЕ ИМЯ
+						</div>
+						<div class="final__field">
+							<span class="final__field-icon">
+								<svg viewBox="0 0 24 24" class="mdi-icon mdi-36px"><title>mdi-account</title><path d="M12,4C14.21,4 16,5.79 16,8C16,10.21 14.21,12 12,12C9.79,12 8,10.21 8,8C8,5.79 9.79,4 12,4M12,14C16.42,14 20,15.79 20,18V20H4V18C4,15.79 7.58,14 12,14Z" stroke-width="0" fill-rule="nonzero"></path></svg>
+							</span>
+							<input class="final__input final__input-name name"  placeholder="Имя" name="name" type="text" >
+							<span class="error-icon">
+								<svg viewBox="0 0 24 24" class="mdi-icon mdi-36px"><title>mdi-alert-circle</title><path d="M13,13H11V7H13M13,17H11V15H13M12,2C6.48,2 2,6.48 2,12C2,17.52 6.48,22 12,22C17.52,22 22,17.52 22,12C22,6.48 17.52,2 12,2Z" stroke-width="0" fill-rule="nonzero"></path></svg>
+							</span>
+						</div>
+					</div>
+					<div class="final__item">
+						<div class="final__subtitle">
+							ВВЕДИТЕ ТЕЛЕФОН
+						</div>
+						<div class="final__field final__field_phone">
+							<input class="final__input phone" name="phone" id="phone" type="number" placeholder="Введите телефон *" >
+							<span class="error-icon">
+								<svg viewBox="0 0 24 24" class="mdi-icon mdi-36px"><title>mdi-alert-circle</title><path d="M13,13H11V7H13M13,17H11V15H13M12,2C6.48,2 2,6.48 2,12C2,17.52 6.48,22 12,22C17.52,22 22,17.52 22,12C22,6.48 17.52,2 12,2Z" stroke-width="0" fill-rule="nonzero"></path></svg>
+							</span>
+						</div>
+					</div>
+				</div>
+				<button class="final__btn-send btn btn_purple is-blicked">
+					<svg viewBox="0 0 24 24" class="mdi-icon mdi-24px"><title>mdi-checkbox-marked-circle-outline</title><path d="M20,12C20,16.42 16.42,20 12,20C7.58,20 4,16.42 4,12C4,7.58 7.58,4 12,4C12.76,4 13.5,4.11 14.2,4.31L15.77,2.74C14.61,2.26 13.34,2 12,2C6.48,2 2,6.48 2,12C2,17.52 6.48,22 12,22C17.52,22 22,17.52 22,12M7.91,10.08L6.5,11.5L11,16L21,6L19.59,4.58L11,13.17L7.91,10.08Z" stroke-width="0" fill-rule="nonzero"></path></svg>
+					Получить результаты
+				</button>
+				<div class="final__text final__field">
+					<label class="custom-w ">
+						<input type="checkbox" class="final__input agree" checked>
+						<i class="custom-checkbox"></i>
+						<span>С <a href="https://marquiz.notion.site/086aa3a8f5524efa8ed58c5e57793af8" target="_blank">Положением об обработке персональных данных</a> и <a href="https://marquiz.notion.site/eae5d931e7e44c3fb19148f94a972792" target="_blank">Политикой конфиденциальности</a> ознакомлен и согласен</span>
+					</label>
+				</div>
+			</div>
+		</div>
+	</form>
+	<div class="thanks">
+		<p class="title thank-page__title">Спасибо! 👏</p>
+	</div>
+	<div class="error-block">
+		<p class="title thank-page__title">Произошла ошибка</p>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/js/intlTelInput.min.js"></script>
+	<script src="js/app.js"></script>
+</body>
+</html>
