@@ -473,10 +473,10 @@ mainForm.addEventListener("submit", function(event) {
     const countryCode = iti.getSelectedCountryData().dialCode;
 
     // Создаем новый объект FormData, передавая ему форму
-    phoneInput.value = `${countryCode}${phoneInput.value}`;
-    const formData = new FormData(event.target);
 
     if (!validation()) {
+        phoneInput.value = `${countryCode}${phoneInput.value}`;
+        const formData = new FormData(event.target);
         finalBtnSend.classList.add('sending')
         finalBtnSend.classList.remove('is-blicked')
         fetch(event.target.action, {
