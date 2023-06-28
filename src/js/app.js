@@ -396,6 +396,7 @@ btnStart.onclick = function(e) {
     setTimeout(() => {
         quizBlock.classList.add('active')
         quizContentBlocks[indexOfActiveQuizBlock].classList.add('active')
+        document.body.classList.add('padding')
     },600)
     
 }
@@ -421,6 +422,7 @@ function changeActiveQuizBlock(index) {
         quizFooter.classList.add('hidden')
         quizListBlocks.classList.add('hidden')
         finalBlock.classList.add('active')
+        document.body.classList.remove('padding')
         return
     }
     quizContentBlocks[indexOfActiveQuizBlock].classList.add('active')
